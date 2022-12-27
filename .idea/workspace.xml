@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d213e08-11b2-42e4-887a-946212ec5481" name="Changes" comment="Добавил метод toString в класс User, удалил метод printUserInfo из класса ArrayUserGenerator">
+    <list default="true" id="5d213e08-11b2-42e4-887a-946212ec5481" name="Changes" comment="Вернул метод printUserInfo в класс ArrayUserGenerator">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NameArchive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayUserGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayUserGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672131598634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Вернул метод printUserInfo в класс ArrayUserGenerator">
+      <created>1672132249303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672132249303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +110,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Вернул к более корректному виду" />
     <MESSAGE value="Добавил метод toString в класс User, удалил метод printUserInfo из класса ArrayUserGenerator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил метод toString в класс User, удалил метод printUserInfo из класса ArrayUserGenerator" />
+    <MESSAGE value="Вернул метод printUserInfo в класс ArrayUserGenerator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вернул метод printUserInfo в класс ArrayUserGenerator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
