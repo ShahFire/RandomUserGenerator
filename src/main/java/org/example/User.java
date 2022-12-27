@@ -29,4 +29,8 @@ public class User {
     public void setName(int age){
         this.age = age;
     }
+
+    public String toString(){
+        return id + " " + name + " " + age;
+    }
 }

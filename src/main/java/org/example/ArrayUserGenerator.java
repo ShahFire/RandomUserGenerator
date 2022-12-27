@@ -23,12 +23,7 @@ public class ArrayUserGenerator {
         ArrayList<User> array = new ArrayList<User>();
         array.addAll(generateUsers(amount));
         for (int i = 0; i < amount; i++){
-            printUserInfo(array, i);
+            System.out.println(array.get(i).toString());
         }
-    }
-    public static void printUserInfo(ArrayList<User> array, int index){
-        System.out.println(array.get(index).getId());
-        System.out.println(array.get(index).getName());
-        System.out.println(array.get(index).getAge());
     }
 }
