@@ -5,6 +5,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 import javax.naming.Name;
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class ArrayUserGenerator {
 
@@ -23,28 +24,27 @@ public class ArrayUserGenerator {
         }
         return array;
     }
-    public static void generateAndPrintUsers(int amount){
-        ArrayList<User> array = new ArrayList<User>();
-        array.addAll(generateUsers(amount, NameArchive.getAny(), 16, 99));
-        for (int i = 0; i < amount; i++){
-            printUserInfo(array, i);
-        }
-    }
-    public static void generateAndPrintUsers(int amount, String[] nameGender){
-        ArrayList<User> array = new ArrayList<User>();
-        array.addAll(generateUsers(amount, nameGender, 16, 99));
-        for (int i = 0; i < amount; i++){
-            printUserInfo(array, i);
-        }
-    }
+//    public static void generateAndPrintUsers(int amount){
+//        ArrayList<User> array = new ArrayList<User>();
+//        array.addAll(generateUsers(amount, NameArchive.getAny(), 16, 99));
+//        for (int i = 0; i < amount; i++){
+//            printUserInfo(array, i);
+//        }
+//    }
+//    public static void generateAndPrintUsers(int amount, String[] nameGender){
+//        ArrayList<User> array = new ArrayList<User>();
+//        array.addAll(generateUsers(amount, nameGender, 16, 99));
+//        for (int i = 0; i < amount; i++){
+//            printUserInfo(array, i);
+//        }
+//    }
     public static void generateAndPrintUsers(int amount, String[] nameGender, int minAge, int maxAge){
         ArrayList<User> array = new ArrayList<User>();
         array.addAll(generateUsers(amount, nameGender, minAge, maxAge));
-        for (int i = 0; i < amount; i++){
-            printUserInfo(array, i);
-        }
+        Stream stream = array.stream();
+        stream.forEach(System.out::println);
     }
-    public static void printUserInfo(ArrayList<User> array, int index){
-        System.out.println(array.get(index).toString());
-    }
+//    public static void printUserInfo(ArrayList<User> array, int index){
+//        System.out.println(array.get(index).toString());
+//    }
 }
