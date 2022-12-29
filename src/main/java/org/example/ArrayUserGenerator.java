@@ -26,9 +26,15 @@ public class ArrayUserGenerator {
         Stream filterStream = filtered.stream();
         return filterStream.toList();
     }
-    public static List<User> nameFilter(List<User> list){
+    public static List<User> maleFilter(List<User> list){
         List<String> maleList = Arrays.asList(NameArchive.getMale());
         List<User> filtered = list.stream().filter(p -> maleList.contains(p.getName())).collect(Collectors.toList());
+        Stream filterStream = filtered.stream();
+        return filterStream.toList();
+    }
+    public static List<User> femaleFilter(List<User> list){
+        List<String> femaleList = Arrays.asList(NameArchive.getFemale());
+        List<User> filtered = list.stream().filter(p -> femaleList.contains(p.getName())).collect(Collectors.toList());
         Stream filterStream = filtered.stream();
         return filterStream.toList();
     }

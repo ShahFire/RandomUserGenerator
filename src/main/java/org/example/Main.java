@@ -8,7 +8,7 @@ public class Main {
           ArrayUserGenerator.printlnUsers(users);
           List<User> filterUsers = ArrayUserGenerator.ageFilter(users, 50, 100);
           ArrayUserGenerator.printlnUsers(filterUsers);
-          List<User> arrayList = ArrayUserGenerator.nameFilter(users);
+          List<User> arrayList = ArrayUserGenerator.maleFilter(users);
         ArrayUserGenerator.printlnUsers(arrayList);
 
     }
