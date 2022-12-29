@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d213e08-11b2-42e4-887a-946212ec5481" name="Changes" comment="Добавил папку .idea в .gitignore">
+    <list default="true" id="5d213e08-11b2-42e4-887a-946212ec5481" name="Changes" comment="Начал переписывание кода с исполхованием Stream API и паттерна pageObject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayUserGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayUserGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
@@ -38,14 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/Testing/19-10-22/RandomUserGenerator&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Work/Testing/19-10-22/MMTRAutotesting",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672139257988</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Начал переписывание кода с исполхованием Stream API и паттерна pageObject">
+      <created>1672295181346</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672295181346</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +156,8 @@
     <MESSAGE value="Вернул метод printUserInfo в класс ArrayUserGenerator" />
     <MESSAGE value="Добавил перегрузку метода generateAndPrintUsers, для волзможности задать пол, создаваемых юзеров, а также диапазон возраста" />
     <MESSAGE value="Добавил папку .idea в .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил папку .idea в .gitignore" />
+    <MESSAGE value="Начал переписывание кода с исполхованием Stream API и паттерна pageObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал переписывание кода с исполхованием Stream API и паттерна pageObject" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
